@@ -3,11 +3,173 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ACACAC"
     tools:context=".physical_fragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <TableLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="jtyjtryjtryjytj ty jtyrjtryj" />
+        android:layout_marginTop="100dp"
+
+        android:padding="16dp">
+
+
+        <!-- Sütun başlıkları -->
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Sex"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sexx"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Age"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Age"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Height"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Height"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Weight"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Weight"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Armcirculferance"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Armcrc"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text=" Waistcirculferance"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Waistcrc"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Chestcirculferance"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Chstcrc"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="Fatrate"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Ftrate"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+
+    </TableLayout>
+
 
 </FrameLayout>
